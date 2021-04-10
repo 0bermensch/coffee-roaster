@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap");
+
+$colors: (
+  dark-cyan: hsl(179, 81%, 29%),
+  dark-grey-blue: hsl(215, 19%, 25%),
+  pale-orange: hsl(25, 94%, 86%),
+  light-cream: hsl(43, 78%, 98%),
+  grey: hsl(215, 5%, 54%),
+);
+
+@function get-color($color) {
+  @return map-get($colors, $color);
+}
