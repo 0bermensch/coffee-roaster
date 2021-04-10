@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Fraunces";
+  font-weight: 900;
+  margin: 0 8vw;
+  padding: 50px 0 48px;
+  &__navs {
+    display: flex;
+    width: 20vw;
+  }
+}

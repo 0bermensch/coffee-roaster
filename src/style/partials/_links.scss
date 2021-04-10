@@ -1,0 +1,10 @@
+.links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  li {
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+}
